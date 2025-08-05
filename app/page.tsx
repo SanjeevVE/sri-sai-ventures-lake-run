@@ -42,7 +42,7 @@ export default function LakeRunRaceInfo() {
         <div className='bg-white rounded-lg shadow-lg overflow-hidden mb-8'>
           <div className='bg-blue-500 text-white px-6 py-4'>
             <h2 className='text-xl font-bold flex items-center gap-2'>
-              📍 Race Expo Details
+              📍 Bib and T-Shirt Distribution details
             </h2>
           </div>
           <div className='p-6 space-y-4 text-gray-800'>
@@ -74,16 +74,9 @@ export default function LakeRunRaceInfo() {
                 • Participants must collect their BIBs on August 9 (Saturday).
               </p>
               <p>
-                • Limited BIB pickup available on Race Day (Sunday){' '}
-                <span className='font-semibold'>only until 5:00 AM</span>.
-              </p>
+                • Limited Spot Registrations will be available between 02:00 PM to 05:00 PM on the 09-Aug at the Race Expo.</p>
             </div>
-            <div className='bg-red-50 border border-red-200 p-3 rounded-lg'>
-              <p className='text-red-700 font-semibold text-sm'>
-                ⚠️ Late entries will not be entertained. Cutoff timings will be
-                strictly enforced.
-              </p>
-            </div>
+
             <div className='space-y-2 pt-2'>
               <div className='flex items-center gap-2'>
                 <Mail className='w-4 h-4 text-blue-600' />
@@ -111,9 +104,6 @@ export default function LakeRunRaceInfo() {
               </h2>
             </div>
             <div className='p-6 text-gray-800 space-y-2'>
-              <p>
-                <strong>Timings:</strong> 4:00 AM to 5:30 AM
-              </p>
               <p>
                 <strong>Place:</strong> KHB Ground, Jigala Village, Surya City
                 Phase 3, Attibele

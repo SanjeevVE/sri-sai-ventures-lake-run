@@ -39,62 +39,7 @@ export default function LakeRunRaceInfo() {
       {/* Main Container */}
       <div className='max-w-6xl mx-auto px-4 py-8'>
         {/* 1. Race Expo */}
-        <div className='bg-white rounded-lg shadow-lg overflow-hidden mb-8'>
-          <div className='bg-blue-500 text-white px-6 py-4'>
-            <h2 className='text-xl font-bold flex items-center gap-2'>
-              📍 Bib and T-Shirt Distribution details
-            </h2>
-          </div>
-          <div className='p-6 space-y-4 text-gray-800'>
-            <div className='flex gap-3 items-start'>
-              <MapPin className='w-5 h-5 text-blue-600 mt-1' />
-              <div>
-                <p className='font-medium'>
-                  Near Sri Venkateshwara Garments, Attibele
-                </p>
-                <a
-                  href='https://maps.app.goo.gl/C5W45AWqpRi8jaBS6'
-                  target='_blank'
-                  className='text-blue-600 underline inline-flex items-center text-sm'
-                >
-                  View on Maps <ExternalLink className='w-3 h-3 ml-1' />
-                </a>
-              </div>
-            </div>
-            <div className='flex items-center gap-3'>
-              <Calendar className='w-5 h-5 text-blue-600' />
-              <span>Saturday, August 9, 2025</span>
-            </div>
-            <div className='flex items-center gap-3'>
-              <Clock className='w-5 h-5 text-blue-600' />
-              <span>10:00 AM – 7:00 PM</span>
-            </div>
-            <div className='bg-blue-50 p-4 rounded-lg text-sm space-y-2 text-blue-900'>
-              <p>
-                • Participants must collect their BIBs on August 9 (Saturday).
-              </p>
-              <p>
-                • Limited Spot Registrations will be available between 02:00 PM to 05:00 PM on the 09-Aug at the Race Expo.</p>
-            </div>
-
-            <div className='space-y-2 pt-2'>
-              <div className='flex items-center gap-2'>
-                <Mail className='w-4 h-4 text-blue-600' />
-                <a
-                  href='mailto:gadinadusportsclub@gmail.com'
-                  className='underline text-blue-700 text-sm'
-                >
-                  gadinadusportsclub@gmail.com
-                </a>
-              </div>
-              <div className='flex items-center gap-2'>
-                <Phone className='w-4 h-4 text-blue-600' />
-                <span className='text-sm'>9900019909 / 9880015879</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
+        
         <section className='max-w-6xl mx-auto px-4 py-8'>
           {/* Race Day Venue */}
           <div className='bg-white rounded-lg shadow-lg overflow-hidden mb-8'>
@@ -297,6 +242,65 @@ export default function LakeRunRaceInfo() {
               </div>
             </div>
           </div>
+        </section>
+
+        <section className='mt-6'>
+          <div className='bg-white rounded-lg shadow-lg overflow-hidden mb-8'>
+          <div className='bg-blue-500 text-white px-6 py-4'>
+            <h2 className='text-xl font-bold flex items-center gap-2'>
+              📍 Bib and T-Shirt Distribution details
+            </h2>
+          </div>
+          <div className='p-6 space-y-4 text-gray-800'>
+            <div className='flex gap-3 items-start'>
+              <MapPin className='w-5 h-5 text-blue-600 mt-1' />
+              <div>
+                <p className='font-medium'>
+                  Near Sri Venkateshwara Garments, Attibele
+                </p>
+                <a
+                  href='https://maps.app.goo.gl/C5W45AWqpRi8jaBS6'
+                  target='_blank'
+                  className='text-blue-600 underline inline-flex items-center text-sm'
+                >
+                  View on Maps <ExternalLink className='w-3 h-3 ml-1' />
+                </a>
+              </div>
+            </div>
+            <div className='flex items-center gap-3'>
+              <Calendar className='w-5 h-5 text-blue-600' />
+              <span>Saturday, August 9, 2025</span>
+            </div>
+            <div className='flex items-center gap-3'>
+              <Clock className='w-5 h-5 text-blue-600' />
+              <span>10:00 AM – 7:00 PM</span>
+            </div>
+            <div className='bg-blue-50 p-4 rounded-lg text-sm space-y-2 text-blue-900'>
+              <p>
+                • Participants must collect their BIBs on August 9 (Saturday).
+              </p>
+              <p>
+                • Limited Spot Registrations will be available between 02:00 PM to 05:00 PM on the 09-Aug at the Race Expo.</p>
+            </div>
+
+            <div className='space-y-2 pt-2'>
+              <div className='flex items-center gap-2'>
+                <Mail className='w-4 h-4 text-blue-600' />
+                <a
+                  href='mailto:gadinadusportsclub@gmail.com'
+                  className='underline text-blue-700 text-sm'
+                >
+                  gadinadusportsclub@gmail.com
+                </a>
+              </div>
+              <div className='flex items-center gap-2'>
+                <Phone className='w-4 h-4 text-blue-600' />
+                <span className='text-sm'>9900019909 / 9880015879</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
         </section>
 
         {/* Contact Info */}
